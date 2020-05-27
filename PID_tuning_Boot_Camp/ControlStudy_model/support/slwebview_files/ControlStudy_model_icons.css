@@ -1,0 +1,11 @@
+.ControlStudy_model0,
+.ControlStudy_model1,
+.ControlStudy_model2,
+.ControlStudy_model3,
+.ControlStudy_model4 { background-image: url('ControlStudy_model_icons.png'); width: 16px; height: 16px; }
+
+.ControlStudy_model0 { background-position: -0px; }
+.ControlStudy_model1 { background-position: -16px; }
+.ControlStudy_model2 { background-position: -32px; }
+.ControlStudy_model3 { background-position: -48px; }
+.ControlStudy_model4 { background-position: -64px; }

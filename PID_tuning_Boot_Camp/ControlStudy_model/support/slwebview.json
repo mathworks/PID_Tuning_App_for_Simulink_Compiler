@@ -1,0 +1,34 @@
+{
+ "baseUrl":"support/slwebview_files",
+ "homeHid":1,
+ "initialElement":"",
+ "sections":[
+  {
+   "hid":1,
+   "sid":"ControlStudy_model",
+   "name":"ControlStudy_model",
+   "fullname":"ControlStudy_model",
+   "label":"ControlStudy_model",
+   "parent":0,
+   "descendants":[
+    2,
+    3,
+    10,
+    4,
+    9,
+    5,
+    8,
+    6,
+    7
+   ],
+   "hierarchyUrl":"support/slwebview_files/ControlStudy_model_h_1.json",
+   "backingUrl":"support/slwebview_files/ControlStudy_model_m.json"
+  }
+ ],
+ "optViews":[
+ ],
+ "display":{
+  "informer":false
+ },
+ "iconsUrl":"support/slwebview_files/ControlStudy_model_icons.css"
+}
