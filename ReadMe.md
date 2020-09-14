@@ -4,4 +4,4 @@ This model is also uploaded in FIle Exchange.
 <br>
 <br>
 最初に"Simulink_Compiler_使い方紹介.pdf"を読んでください。<br>
-Please refer to the "Simulink_Compiler_R2020a_使い方紹介.pdf" in "doc" at first.
+Please refer to the "Simulink_Compiler_使い方紹介.pdf" in "doc" at first.
