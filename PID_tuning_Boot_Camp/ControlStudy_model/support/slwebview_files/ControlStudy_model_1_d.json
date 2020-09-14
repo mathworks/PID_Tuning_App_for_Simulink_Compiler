@@ -600,10 +600,9 @@
     "SaturateOnIntegerOverflow",
     "StateName",
     "StateMustResolveToSignalObject",
-    "StateSignalObjectClass",
-    "StateStorageClass",
     "RTWStateStorageTypeQualifier",
-    "StateSignalObject"
+    "StateSignalObject",
+    "StateStorageClass"
    ],
    "values":[
     "Integration: Forward Euler",
@@ -627,11 +626,10 @@
     "off",
     "",
     "off",
-    "Simulink.Signal",
-    "Auto",
     "",
     [
-    ]
+    ],
+    "Auto"
    ],
    "tabs":[
     "メイン",
@@ -643,7 +641,7 @@
     0,
     13,
     19,
-    23
+    21
    ]
   },
   "viewer":{

@@ -19,6 +19,7 @@
   "thumbnail":"support/slwebview_files/ControlStudy_model_d.png",
   "backingUrl":"support/slwebview_files/ControlStudy_model_d.json",
   "elements":[
+   ":256",
    ":182",
    ":183",
    ":184",
@@ -188,8 +189,8 @@
    ":94",
    ":86",
    ":97",
-   ":88",
    ":109",
+   ":88",
    ":101",
    ":106",
    ":70",

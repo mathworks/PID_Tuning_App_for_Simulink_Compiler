@@ -1316,10 +1316,9 @@
     "SaturateOnIntegerOverflow",
     "StateName",
     "StateMustResolveToSignalObject",
-    "StateSignalObjectClass",
-    "StateStorageClass",
     "RTWStateStorageTypeQualifier",
-    "StateSignalObject"
+    "StateSignalObject",
+    "StateStorageClass"
    ],
    "values":[
     "Integration: Forward Euler",
@@ -1343,11 +1342,10 @@
     "off",
     "",
     "off",
-    "Simulink.Signal",
-    "Auto",
     "",
     [
-    ]
+    ],
+    "Auto"
    ],
    "tabs":[
     "メイン",
@@ -1359,7 +1357,7 @@
     0,
     13,
     19,
-    23
+    21
    ]
   },
   "viewer":{
@@ -2017,11 +2015,10 @@
     "SampleTime",
     "StateName",
     "StateMustResolveToSignalObject",
-    "StateSignalObjectClass",
-    "StateStorageClass",
     "CodeGenStateStorageTypeQualifier",
     "DelayLength",
-    "StateSignalObject"
+    "StateSignalObject",
+    "StateStorageClass"
    ],
    "values":[
     "Input port",
@@ -2038,12 +2035,11 @@
     "-1",
     "",
     "off",
-    "Simulink.Signal",
-    "Auto",
     "",
     "Sens_delay",
     [
-    ]
+    ],
+    "Auto"
    ],
    "tabs":[
     "メイン",
@@ -2053,7 +2049,7 @@
    "tabs_idx":[
     0,
     12,
-    16
+    14
    ]
   },
   "viewer":{

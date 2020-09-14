@@ -294,11 +294,11 @@
   ]
  },
  {
-  "sid":"ControlStudy_model:88",
+  "sid":"ControlStudy_model:109",
   "className":"Simulink.Annotation",
   "icon":"ControlStudy_model1",
-  "name":"微分項 / Differential",
-  "label":"微分項 / Differential",
+  "name":"計測むだ時間 / Sensor Delay",
+  "label":"計測むだ時間 / Sensor Delay",
   "parent":"ControlStudy_model:65",
   "inspector":{
    "params":[
@@ -316,7 +316,7 @@
     "ClickFcn"
    ],
    "values":[
-    "微分項 / Differential",
+    "計測むだ時間 / Sensor Delay",
     "off",
     "off",
     "auto",
@@ -343,11 +343,11 @@
   ]
  },
  {
-  "sid":"ControlStudy_model:109",
+  "sid":"ControlStudy_model:88",
   "className":"Simulink.Annotation",
   "icon":"ControlStudy_model1",
-  "name":"計測むだ時間 / Sensor Delay",
-  "label":"計測むだ時間 / Sensor Delay",
+  "name":"微分項 / Differential",
+  "label":"微分項 / Differential",
   "parent":"ControlStudy_model:65",
   "inspector":{
    "params":[
@@ -365,7 +365,7 @@
     "ClickFcn"
    ],
    "values":[
-    "計測むだ時間 / Sensor Delay",
+    "微分項 / Differential",
     "off",
     "off",
     "auto",
@@ -1316,10 +1316,9 @@
     "SaturateOnIntegerOverflow",
     "StateName",
     "StateMustResolveToSignalObject",
-    "StateSignalObjectClass",
-    "StateStorageClass",
     "RTWStateStorageTypeQualifier",
-    "StateSignalObject"
+    "StateSignalObject",
+    "StateStorageClass"
    ],
    "values":[
     "Integration: Forward Euler",
@@ -1343,11 +1342,10 @@
     "off",
     "",
     "off",
-    "Simulink.Signal",
-    "Auto",
     "",
     [
-    ]
+    ],
+    "Auto"
    ],
    "tabs":[
     "メイン",
@@ -1359,7 +1357,7 @@
     0,
     13,
     19,
-    23
+    21
    ]
   },
   "viewer":{
@@ -1475,11 +1473,10 @@
     "SampleTime",
     "StateName",
     "StateMustResolveToSignalObject",
-    "StateSignalObjectClass",
-    "StateStorageClass",
     "CodeGenStateStorageTypeQualifier",
     "DelayLength",
-    "StateSignalObject"
+    "StateSignalObject",
+    "StateStorageClass"
    ],
    "values":[
     "Input port",
@@ -1496,12 +1493,11 @@
     "-1",
     "",
     "off",
-    "Simulink.Signal",
-    "Auto",
     "",
     "Sens_delay",
     [
-    ]
+    ],
+    "Auto"
    ],
    "tabs":[
     "メイン",
@@ -1511,7 +1507,7 @@
    "tabs_idx":[
     0,
     12,
-    16
+    14
    ]
   },
   "viewer":{

@@ -1,5 +1,54 @@
 [
  {
+  "sid":"ControlStudy_model:256",
+  "className":"Simulink.Annotation",
+  "icon":"ControlStudy_model1",
+  "name":"Copyright 2020 The MathWorks, Inc.",
+  "label":"Copyright 2020 The MathWorks, Inc.",
+  "parent":"ControlStudy_model",
+  "inspector":{
+   "params":[
+    "Text",
+    "DropShadow",
+    "Interpreter",
+    "FontName",
+    "FontWeight",
+    "FontSize",
+    "FontAngle",
+    "ForegroundColor",
+    "BackgroundColor",
+    "HorizontalAlignment",
+    "UseDisplayTextAsClickCallback",
+    "ClickFcn"
+   ],
+   "values":[
+    "Copyright 2020 The MathWorks, Inc.",
+    "off",
+    "off",
+    "auto",
+    "auto",
+    -1,
+    "auto",
+    "black",
+    "white",
+    "left",
+    "off",
+    ""
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
   "sid":"ControlStudy_model:182",
   "className":"Simulink.Annotation",
   "icon":"ControlStudy_model1",
@@ -220,7 +269,6 @@
     "ExecutionDomainType",
     "FunctionInterfaceSpec",
     "FunctionWithSeparateData",
-    "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
     "LabelModeActiveChoice",
     "Latency",
@@ -242,6 +290,7 @@
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
+    "VariantActivationTime",
     "VariantControl",
     "VariantControlMode"
    ],
@@ -261,7 +310,6 @@
     "",
     "Deduce",
     "void_void",
-    "off",
     "off",
     "on",
     "",
@@ -284,8 +332,9 @@
     "-1",
     "",
     "off",
+    "update diagram",
     "",
-    "Expression"
+    "expression"
    ],
    "tabs":[
     "メイン",
@@ -335,7 +384,6 @@
     "ExecutionDomainType",
     "FunctionInterfaceSpec",
     "FunctionWithSeparateData",
-    "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
     "LabelModeActiveChoice",
     "Latency",
@@ -357,6 +405,7 @@
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
+    "VariantActivationTime",
     "VariantControl",
     "VariantControlMode"
    ],
@@ -376,7 +425,6 @@
     "",
     "Deduce",
     "void_void",
-    "off",
     "off",
     "on",
     "",
@@ -399,8 +447,9 @@
     "-1",
     "",
     "off",
+    "update diagram",
     "",
-    "Expression"
+    "expression"
    ],
    "tabs":[
     "メイン",
@@ -450,7 +499,6 @@
     "ExecutionDomainType",
     "FunctionInterfaceSpec",
     "FunctionWithSeparateData",
-    "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
     "LabelModeActiveChoice",
     "Latency",
@@ -472,6 +520,7 @@
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
+    "VariantActivationTime",
     "VariantControl",
     "VariantControlMode"
    ],
@@ -491,7 +540,6 @@
     "",
     "Deduce",
     "void_void",
-    "off",
     "off",
     "on",
     "",
@@ -514,8 +562,9 @@
     "-1",
     "",
     "off",
+    "update diagram",
     "",
-    "Expression"
+    "expression"
    ],
    "tabs":[
     "メイン",
@@ -565,7 +614,6 @@
     "ExecutionDomainType",
     "FunctionInterfaceSpec",
     "FunctionWithSeparateData",
-    "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
     "LabelModeActiveChoice",
     "Latency",
@@ -587,6 +635,7 @@
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
+    "VariantActivationTime",
     "VariantControl",
     "VariantControlMode"
    ],
@@ -606,7 +655,6 @@
     "",
     "Deduce",
     "void_void",
-    "off",
     "off",
     "on",
     "",
@@ -629,8 +677,9 @@
     "-1",
     "",
     "off",
+    "update diagram",
     "",
-    "Expression"
+    "expression"
    ],
    "tabs":[
     "メイン",

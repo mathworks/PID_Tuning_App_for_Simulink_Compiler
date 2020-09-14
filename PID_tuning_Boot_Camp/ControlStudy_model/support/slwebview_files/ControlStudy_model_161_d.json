@@ -191,10 +191,9 @@
     "SampleTime",
     "StateName",
     "StateMustResolveToSignalObject",
-    "StateSignalObjectClass",
-    "StateStorageClass",
     "CodeGenStateStorageTypeQualifier",
-    "StateSignalObject"
+    "StateSignalObject",
+    "StateStorageClass"
    ],
    "values":[
     "ICPrevScaledInput",
@@ -202,11 +201,10 @@
     "-1",
     "",
     "off",
-    "Simulink.Signal",
-    "Auto",
     "",
     [
-    ]
+    ],
+    "Auto"
    ],
    "tabs":[
     "メイン",
@@ -216,7 +214,7 @@
    "tabs_idx":[
     0,
     3,
-    7
+    5
    ]
   },
   "viewer":{
