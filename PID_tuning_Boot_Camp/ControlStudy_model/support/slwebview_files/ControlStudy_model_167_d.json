@@ -120,8 +120,10 @@
     "SampleTime",
     "SignalType",
     "BusOutputAsStruct",
+    "BusVirtuality",
     "InitialOutput",
     "MustResolveToSignalObject",
+    "OutputFunctionCall",
     "OutputWhenDisabled",
     "OutputWhenUnConnected",
     "OutputWhenUnconnectedValue",
@@ -145,7 +147,9 @@
     "-1",
     "auto",
     "off",
+    "inherit",
     "0",
+    "off",
     "off",
     "held",
     "off",
@@ -373,6 +377,7 @@
     "IconDisplay",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
+    "Interpolate",
     "OutputFunctionCall",
     "OutMin",
     "OutMax",
@@ -384,14 +389,15 @@
     "SampleTime",
     "SignalType",
     "BusOutputAsStruct",
-    "InputConnect",
-    "Interpolate"
+    "BusVirtuality",
+    "InputConnect"
    ],
    "values":[
     "1",
     "Port number",
     "off",
     "off",
+    "on",
     "off",
     "[]",
     "[]",
@@ -403,8 +409,8 @@
     "-1",
     "auto",
     "off",
-    "",
-    "on"
+    "inherit",
+    ""
    ],
    "tabs":[
     "メイン",
@@ -413,8 +419,8 @@
    ],
    "tabs_idx":[
     0,
-    4,
-    14
+    5,
+    15
    ]
   },
   "viewer":{

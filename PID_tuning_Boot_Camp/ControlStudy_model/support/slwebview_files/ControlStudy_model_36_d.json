@@ -373,51 +373,6 @@
   }
  },
  {
-  "sid":"ControlStudy_model:52",
-  "className":"Simulink.Step",
-  "icon":"ControlStudy_model3",
-  "name":"Step",
-  "label":"Step",
-  "parent":"ControlStudy_model:36",
-  "inspector":{
-   "params":[
-    "Time",
-    "Before",
-    "After",
-    "SampleTime",
-    "VectorParams1D",
-    "ZeroCross",
-    "OutDataTypeStr"
-   ],
-   "values":[
-    "1",
-    "0",
-    "1",
-    "TimeStep",
-    "on",
-    "on",
-    "double"
-   ],
-   "tabs":[
-    "メイン",
-    "信号属性"
-   ],
-   "tabs_idx":[
-    0,
-    6
-   ]
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":{
-   "blocktype":"Step",
-   "masktype":""
-  }
- },
- {
   "sid":"ControlStudy_model:37",
   "className":"Simulink.Sum",
   "icon":"ControlStudy_model3",
@@ -675,12 +630,14 @@
    "params":[
     "Numerator",
     "Denominator",
+    "ParameterTunability",
     "AbsoluteTolerance",
     "ContinuousStateAttributes"
    ],
    "values":[
     "[1.6]",
     "[2 1]",
+    "Auto",
     "auto",
     "''"
    ],
@@ -826,8 +783,10 @@
     "SampleTime",
     "SignalType",
     "BusOutputAsStruct",
+    "BusVirtuality",
     "InitialOutput",
     "MustResolveToSignalObject",
+    "OutputFunctionCall",
     "OutputWhenDisabled",
     "OutputWhenUnConnected",
     "OutputWhenUnconnectedValue",
@@ -851,7 +810,9 @@
     "-1",
     "auto",
     "off",
+    "inherit",
     "[]",
+    "off",
     "off",
     "held",
     "off",
@@ -887,8 +848,8 @@
   "sid":"ControlStudy_model:212",
   "className":"Simulink.Outport",
   "icon":"ControlStudy_model3",
-  "name":"ref",
-  "label":"ref",
+  "name":"model1_i_ref",
+  "label":"model1_i_ref",
   "parent":"ControlStudy_model:36",
   "inspector":{
    "params":[
@@ -906,8 +867,10 @@
     "SampleTime",
     "SignalType",
     "BusOutputAsStruct",
+    "BusVirtuality",
     "InitialOutput",
     "MustResolveToSignalObject",
+    "OutputFunctionCall",
     "OutputWhenDisabled",
     "OutputWhenUnConnected",
     "OutputWhenUnconnectedValue",
@@ -931,7 +894,9 @@
     "-1",
     "auto",
     "off",
+    "inherit",
     "[]",
+    "off",
     "off",
     "held",
     "off",
@@ -986,8 +951,10 @@
     "SampleTime",
     "SignalType",
     "BusOutputAsStruct",
+    "BusVirtuality",
     "InitialOutput",
     "MustResolveToSignalObject",
+    "OutputFunctionCall",
     "OutputWhenDisabled",
     "OutputWhenUnConnected",
     "OutputWhenUnconnectedValue",
@@ -1011,7 +978,9 @@
     "-1",
     "auto",
     "off",
+    "inherit",
     "[]",
+    "off",
     "off",
     "held",
     "off",
@@ -1199,7 +1168,76 @@
   }
  },
  {
-  "sid":"ControlStudy_model:52#out:1",
+  "sid":"ControlStudy_model:260",
+  "className":"Simulink.Inport",
+  "icon":"ControlStudy_model3",
+  "name":"ref",
+  "label":"ref",
+  "parent":"ControlStudy_model:36",
+  "inspector":{
+   "params":[
+    "Port",
+    "IconDisplay",
+    "LatchByDelayingOutsideSignal",
+    "LatchInputForFeedbackSignals",
+    "Interpolate",
+    "OutputFunctionCall",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
+    "PortDimensions",
+    "VarSizeSig",
+    "SampleTime",
+    "SignalType",
+    "BusOutputAsStruct",
+    "BusVirtuality",
+    "InputConnect"
+   ],
+   "values":[
+    "1",
+    "Port number",
+    "off",
+    "off",
+    "on",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "inherit",
+    "-1",
+    "Inherit",
+    "-1",
+    "auto",
+    "off",
+    "inherit",
+    ""
+   ],
+   "tabs":[
+    "メイン",
+    "信号属性",
+    "-その他"
+   ],
+   "tabs_idx":[
+    0,
+    5,
+    15
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Inport",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"ControlStudy_model:260#out:1",
   "className":"Simulink.Line",
   "icon":"ControlStudy_model4",
   "name":"",

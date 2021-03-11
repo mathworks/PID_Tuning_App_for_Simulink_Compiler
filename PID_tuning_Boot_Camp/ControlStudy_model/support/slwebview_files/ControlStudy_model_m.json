@@ -16,8 +16,8 @@
     "Description"
    ],
    "values":[
-    "1.199",
-    "Tue Sep 01 19:22:01 2020",
+    "2.0",
+    "Fri Feb 26 00:26:58 2021",
     "disabled",
     "off",
     "off",
@@ -87,7 +87,6 @@
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
     "RTWSystemCode",
-    "ReferencedSubsystem",
     "AllowZeroVariantControls",
     "AutoFrameSizeCalculation",
     "BlockChoice",
@@ -112,12 +111,14 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
+    "ReferencedSubsystem",
     "ScheduleAs",
     "SetExecutionDomain",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
     "VariantActivationTime",
+    "VariantChoices",
     "VariantControl",
     "VariantControlMode"
    ],
@@ -129,7 +130,6 @@
     "off",
     "on",
     "Auto",
-    "",
     "off",
     "off",
     "",
@@ -154,26 +154,27 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
+    "",
     "Sample time",
     "off",
     "-1",
     "",
     "off",
     "update diagram",
+    [
+    ],
     "",
     "expression"
    ],
    "tabs":[
     "メイン",
     "コード生成",
-    "サブシステム参照",
     "-その他"
    ],
    "tabs_idx":[
     0,
     6,
-    7,
-    8
+    7
    ]
   },
   "viewer":{
@@ -247,7 +248,6 @@
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
     "RTWSystemCode",
-    "ReferencedSubsystem",
     "AllowZeroVariantControls",
     "AutoFrameSizeCalculation",
     "BlockChoice",
@@ -272,12 +272,14 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
+    "ReferencedSubsystem",
     "ScheduleAs",
     "SetExecutionDomain",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
     "VariantActivationTime",
+    "VariantChoices",
     "VariantControl",
     "VariantControlMode"
    ],
@@ -289,7 +291,6 @@
     "off",
     "on",
     "Auto",
-    "",
     "off",
     "off",
     "",
@@ -314,26 +315,27 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
+    "",
     "Sample time",
     "off",
     "-1",
     "",
     "off",
     "update diagram",
+    [
+    ],
     "",
     "expression"
    ],
    "tabs":[
     "メイン",
     "コード生成",
-    "サブシステム参照",
     "-その他"
    ],
    "tabs_idx":[
     0,
     6,
-    7,
-    8
+    7
    ]
   },
   "viewer":{
@@ -407,7 +409,6 @@
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
     "RTWSystemCode",
-    "ReferencedSubsystem",
     "AllowZeroVariantControls",
     "AutoFrameSizeCalculation",
     "BlockChoice",
@@ -432,12 +433,14 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
+    "ReferencedSubsystem",
     "ScheduleAs",
     "SetExecutionDomain",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
     "VariantActivationTime",
+    "VariantChoices",
     "VariantControl",
     "VariantControlMode"
    ],
@@ -449,7 +452,6 @@
     "off",
     "on",
     "Auto",
-    "",
     "off",
     "off",
     "",
@@ -474,26 +476,27 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
+    "",
     "Sample time",
     "off",
     "-1",
     "",
     "off",
     "update diagram",
+    [
+    ],
     "",
     "expression"
    ],
    "tabs":[
     "メイン",
     "コード生成",
-    "サブシステム参照",
     "-その他"
    ],
    "tabs_idx":[
     0,
     6,
-    7,
-    8
+    7
    ]
   },
   "viewer":{
@@ -567,7 +570,6 @@
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
     "RTWSystemCode",
-    "ReferencedSubsystem",
     "AllowZeroVariantControls",
     "AutoFrameSizeCalculation",
     "BlockChoice",
@@ -592,12 +594,14 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
+    "ReferencedSubsystem",
     "ScheduleAs",
     "SetExecutionDomain",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
     "VariantActivationTime",
+    "VariantChoices",
     "VariantControl",
     "VariantControlMode"
    ],
@@ -609,7 +613,6 @@
     "off",
     "on",
     "Auto",
-    "",
     "off",
     "off",
     "",
@@ -634,26 +637,27 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
+    "",
     "Sample time",
     "off",
     "-1",
     "",
     "off",
     "update diagram",
+    [
+    ],
     "",
     "expression"
    ],
    "tabs":[
     "メイン",
     "コード生成",
-    "サブシステム参照",
     "-その他"
    ],
    "tabs_idx":[
     0,
     6,
-    7,
-    8
+    7
    ]
   },
   "viewer":{
