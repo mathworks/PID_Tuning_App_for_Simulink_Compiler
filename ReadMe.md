@@ -1,4 +1,4 @@
-# Simulink Compiler モデルをアプリに実装するワークフローを�紹介
+# Simulink Compiler モデルをアプリに実装するワークフローを紹介
 # 目的
 
 
