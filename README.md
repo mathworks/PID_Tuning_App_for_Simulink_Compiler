@@ -37,6 +37,11 @@ GitHubからクローンしている場合には、以下の該当バージョ�
   
 
 
+R2022b: [v6.0](https://github.com/mathworks/PID_Tuning_App_for_Simulink_Compiler/archive/refs/tags/v6.0.zip)
+
+
+
+
 R2022a: [v5.0](https://github.com/mathworks/PID_Tuning_App_for_Simulink_Compiler/archive/refs/tags/v5.0.zip)
 
 
@@ -63,6 +68,6 @@ R2020a: [v1.0](https://github.com/mathworks/PID_Tuning_App_for_Simulink_Compiler
   
 
 
-*Copyright 2022 The MathWorks, Inc.*
+*Copyright 2023 The MathWorks, Inc.*
 
 
