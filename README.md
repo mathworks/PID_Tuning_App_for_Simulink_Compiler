@@ -14,7 +14,7 @@ Simulink Compiler を使ってアプリを作る方法を、初心者にも分�
 詳細は、docフォルダの「[Simulink_Compiler_使い方紹介.pdf](https://github.com/mathworks/PID_Tuning_App_for_Simulink_Compiler/blob/master/doc/Simulink_Compiler_%E4%BD%BF%E3%81%84%E6%96%B9%E7%B4%B9%E4%BB%8B.pdf)」を参照すること。
 
 
-また、アプリの作り方については、[こちら](https://blogs.mathworks.com/japan-community/2020/05/14/app-designer-%e3%81%a7-simulink-%e3%83%a2%e3%83%87%e3%83%ab%e3%81%ae%e3%82%b7%e3%83%9f%e3%83%a5%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%9c%e3%82%8b/)のブログ記事も参考にすること。
+また、アプリの作り方については、[こちら](https://blogs.mathworks.com/japan-community/2020/05/14/create-simulink-model-simulation-app-in-app-designer/)のブログ記事も参考にすること。
 
 # 過去バージョン
 
